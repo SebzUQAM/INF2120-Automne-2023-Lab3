@@ -25,15 +25,4 @@ public class Cercle extends Forme2D {
         return Math.PI * rayon * rayon;
         // ou return Math.PI * Math.pow(rayon,2);
     }
-
-    /**
-     * Retourne une représentation textuelle du cercle.
-     *
-     * @return Une chaîne de caractères représentant le cercle et son aire.
-     */
-    @Override
-    public String toString() {
-
-        return "Mon beau cercle avec un aire de " + aire();
-    }
 }

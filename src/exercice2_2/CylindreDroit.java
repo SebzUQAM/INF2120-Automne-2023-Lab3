@@ -27,14 +27,4 @@ public class CylindreDroit extends Forme3D{
     public double volume() {
         return base.aire() * hauteur;
     }
-
-    /**
-     * Retourne une représentation textuelle du cylindre droit.
-     *
-     * @return Une chaîne de caractères représentant le cylindre droit et son volume.
-     */
-    @Override
-    public String toString() {
-        return String.format("Mon cylindre d'un volume de %s est plus beau que le tien :P", volume());
-    }
 }

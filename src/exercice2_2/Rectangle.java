@@ -25,17 +25,6 @@ public class Rectangle extends Forme2D {
      */
     @Override
     public double aire() {
-
         return largeur * hauteur;
-    }
-
-    /**
-     * Retourne une représentation textuelle du rectangle.
-     *
-     * @return Une chaîne de caractères représentant le rectangle et son aire.
-     */
-    @Override
-    public String toString() {
-        return String.format("Regarde comme mon rectangle avec un aire de %s est beau !!", aire());
     }
 }
